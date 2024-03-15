@@ -1,6 +1,7 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
+    background-color: #333; /* This is a dark grey color */
+    color: #fff; /* This is white color for the text */
 }
 header, nav, main, footer {
     margin: 0;
@@ -16,4 +17,5 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
+    color: #fff; /* This is white color for the links */
 }
