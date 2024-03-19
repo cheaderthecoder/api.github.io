@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/api.github.io') {
+  if (req.url === 'https://cheaderthecoder.github.io/api.github.io/') {
     if (req.method === 'POST') {
       let body = '';
       req.on('data', chunk => {
