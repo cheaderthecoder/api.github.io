@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
         res.end('<html><body>contents 1</body></html>');
       });
     } else if (req.method === 'GET') {
-      res.end('<html><body>This is a GET request.</body></html>');
+      res.end('<html><body>new content</body></html>');
     } else {
       res.end('Invalid request');
     }
